@@ -1,1 +1,1 @@
-# rock pappe scissor game
+# rock papper scissor game
