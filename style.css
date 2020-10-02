@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(36, 33, 33);
+}
+
+header{
+    background-color: white;
+    text-transform: uppercase;
+    color: cadetblue;
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.score-board{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+    font-size: 20px;position: relative;
+    margin:0 auto;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.names{
+    position: absolute;
+    top: 20px;
+    background-color: rgb(223, 74, 99);
+    font-size: 15px;
+    padding: 4px;
+}
+#user{
+    left: -15px;
+}
+#comp {
+    right: -15px;
+}
+
+h1,h2{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#r,#p,#s{
+    font-size: 60px;
+    border: 5px solid white;
+    border-radius: 65px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 20px;
+    /* transition: background-color 0.5s  ease-in-out */
+}
+
+button{ 
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#buttons{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.green{
+    border: 5px solid green;
+}
+
+.red{
+    border: 5px solid red
+}
+
+.gray{
+    border: 5px solid gray;
+
+}
+
+#result{
+   background-color:white;
+    text-align: center;
+    margin: 10px;
+}
